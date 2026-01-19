@@ -1,4 +1,4 @@
-package java.JAVA;
+import java.util.Arrays;
 
 public class Main_1 {
     public static void main(String[] args) {
@@ -22,18 +22,24 @@ public class Main_1 {
                 
        // Primitive Data Types
 //        These are the data types of fixed size.
+//        store the actual value and built in.
+//        total 8 primitive data type exists in java.
 
-//        byte age = 30; // size - 1
-//        int a = 1234567854; // size - 4 . if we increase the number then it shows error so we use long
-//        long b = 45687875565621L; // size - 8. This is the log value
-//        float pi = 3.14F; // size - 4
-//        short c = 4561; // size - 2
-//        char ch = '@'; // size - 2
-//        double num1 = 4.365D; // size - 8
-//        boolean num2 = True; // size - 1
+//        boolean num2 = True; // size - 1-bit(logical)
+//        byte age = 30; // size - 1-byte(8-bit)
+//        short c = 4561; // size - 2-byte(16-bit)
+//        char ch = '@'; // size - 2-byte(16-bit)
+//        int a = 1234567854; // size - 4-byte(32-bit) --> if we increase the number then it shows error so we use long
+//        float pi = 3.14F; // size - 4-byte(32-bit)
+//        long b = 45687875565621L; // size - 8-byte(64-bit) --> This is the log value
+//        double num1 = 4894.36546987D; // size - 8-byte(64-bit)
 
        // Non - Primitive Data Types
-//        These are of variable size & are usually declared with a ‘new’keyword.
+//        User defined, store references(address) of an object.
+//        unlimited non-primitive data type exists becouse of user defined.
+//        String, Array, class, interfeces all are non-primitive data types.
+
+          //## String --> String is a non-primitive (reference) data type used to store a sequence of characters.
 
 //        String name = "Amaresh"; // Type -1 to print a string
 //        String friend = new String("Aman"); // Type -2 to print a string using 'new' keyword
@@ -55,14 +61,15 @@ public class Main_1 {
 //        String name2 = name.replace('A','a'); // new replace string
 //        System.out.println(name); // Original string print
 //        System.out.println(name2); // new replace string print
-        // we can't change the original string because strings are immutable(not changing), but we create a new string and then change it.
+        //** we can't change the original string because strings are immutable(not changing), but we create a new string and then change it.
 
         // substring --> small portion of total string.
 //        String name = "Aman and Amaresh";
 //        System.out.println(name.substring(0, 4)); // name.substring(start idx : 0, end idx: end+1)
 //        System.out.println(name.substring(9, 16));
 
-        // Array --> Collection of values in same variable.
+
+        //## Array --> Collection of values in same variable.
 
 //        not using array
 //        int marks1 = 54;
@@ -71,7 +78,7 @@ public class Main_1 {
 //        int marks4 = 85;
 
 //       using array - 1D Array(type-1 using new key word)
-//        int[] marks = new int[4];
+//        int[] marks = new int[4]; --> array star with 0,1,2,3,.....
 //        marks[0] = 78;
 //        marks[1] = 64;
 //        marks[2] = 86;
@@ -89,6 +96,15 @@ public class Main_1 {
         // type 2 - 1D Array(not using new keyword)
 //        int[] marks = {89,96,78,91,64};
 //        System.out.println(marks[3]);
+
+//         //length
+//         System.out.println(marks.length);
+
+//         //ArrayS.sort
+//         System.out.println(Arrays.toString(marks)); --> ALL Array printed
+//         Arrays.sort(marks);
+//         System.out.println(Arrays.toString(marks));
+
 
         // type 3 - 2D Array
 //        int[][] marks = {{89,78,85},{56,85,64},{98,95,87}};
@@ -119,8 +135,11 @@ public class Main_1 {
 //        a different value once assigned.
 
 //        int age = 22; //age can't be constant because it is change.
+//        System.out.println(age); // o/p--> 22
 //        age = 23;
-//        age =24
+//        System.out.println(age); // o/p--> 23
+//        age =24;
+//        System.out.println(age); // o/p--> 24
 //
 //        final float PI = 3.14F; // PI value is same always, so it is constant by using final keyword.
 //        PI = 5.66F; // can't change PI value because it's constant now.
