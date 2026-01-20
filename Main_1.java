@@ -100,7 +100,7 @@ public class Main_1 {
 //         //length
 //         System.out.println(marks.length);
 
-//         //ArrayS.sort
+//         //Arrays.sort
 //         System.out.println(Arrays.toString(marks)); --> ALL Array printed
 //         Arrays.sort(marks);
 //         System.out.println(Arrays.toString(marks));
