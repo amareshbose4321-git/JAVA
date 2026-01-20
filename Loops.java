@@ -2,13 +2,14 @@ public class Loops {
     public static void main(String[] args) {
         
         //LOOPS
-        
+
         //for loop
 
         //Print number 1-100
 //        for(int i = 1 ; i<=100 ; i++){
 //            System.out.println(i);
 //        }
+        //Ex:
 
         //Print number 100-1
 //        for(int i = 100 ; i>=1 ; i--){
