@@ -1,2 +1,2 @@
 # JAVA
-Basic java concepts and codes.
+Basic java concepts with codes.
