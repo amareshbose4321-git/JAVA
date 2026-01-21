@@ -163,7 +163,7 @@
 //     }
 // }
 
-// 🔹 What it does
+// 🔹 sc.close()-->What it does
 // Scanner sc = new Scanner(System.in); opens a resource to read input from the keyboard.
 // sc.close(); tells Java:
 // "I am done using this Scanner, you can free the resources."
