@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Loops {
     public static void main(String[] args) {
         
@@ -37,7 +39,7 @@ public class Loops {
 // take positive numbers from user and print that number until the number is negative.
 
         //Using for lopp :
-        
+
 //        System.out.println("----START----");
 //        for(;;){ // infinite loop
 //            Scanner sc = new Scanner(System.in);
