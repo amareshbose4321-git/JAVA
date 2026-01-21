@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 public class patterns {
     public static void main(String[] args){
@@ -10,7 +9,7 @@ public class patterns {
 //        for (int i=1;i<=4;i++){  // rows = 4 (Outer loop)
 //             for(int j=1;j<=5;j++){ // coloum = 5 (Inner loop)
 //                System.out.print("*");
-//
+//              
 //            }
 //            System.out.println(); //Next line
 //
@@ -23,6 +22,7 @@ public class patterns {
 //       int n = 4; // for rows
 //        int m = 5; // for cols
 //        for(int i=1;i<=n;i++){  // rows
+              // nested loop
 //            for(int j=1;j<=m;j++){  // cols
 //               if(i==1 || i==4 || j==1 || j==5){
 //                   System.out.print("*");
