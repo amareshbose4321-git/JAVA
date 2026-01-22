@@ -47,7 +47,10 @@ public class Main_1 {
 //        System.out.println(friend);
 
         //concatenation -- add two strings
-//        System.out.println(name + " and " + friend);
+//         String n1 = "My name is "; //String-1
+//         String n2 = "Amaresh"; //String-2
+//         String n3 = n1 + n2; //Add both String (Concatenation)
+//         System.out.println(n3); // print the value
 
         //charAt --> find any character in the string based on their idx no.
 //        System.out.println(name.charAt(0));
@@ -106,7 +109,8 @@ public class Main_1 {
 //         System.out.println(Arrays.toString(marks));
 
 
-        // type 3 - 2D Array
+        // type 3 - 2D Array --> A 2D array (Two-Dimensional Array) is an array of arrays. It is used to store data in rows and columns, just like a table or matrix.
+        // A 2D array stores multiple 1D arrays inside one array.
 //        int[][] marks = {{89,78,85},{56,85,64},{98,95,87}};
 //        System.out.println(marks[1][2]);
 
