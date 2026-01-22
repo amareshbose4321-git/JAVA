@@ -67,25 +67,6 @@ public class Main_2 {
 //        System.out.println(Math.min(5,6));  // find min value
 //        System.out.println((int)(Math.random()*100)); // show random values
 
-       // How to take input?
-
-//        Scanner sc = new Scanner(System.in);
-//
-//        System.out.print("Enter your age: ");
-//        int age = sc.nextInt();
-//
-//        System.out.print("Enter your name: ");
-//        String name1 = sc.next(); // it does not take a sentence only take toke of word.
-//
-//        System.out.print("Enter your number: ");
-//        float num = sc.nextFloat();
-//
-//        sc.nextLine(); // *** FIX: Consume the leftover newline from sc.nextFloat() ***
-//        System.out.print("Tell us about yourself: ");
-//        String name2 = sc.nextLine(); // it does not take only a word. It takes whole sentence.
-//    
-
-//        System.out.println(age + "\n" + name1 + "\n" + num + "\n" + name2 );
 
         //b. Assignment Operators:
         // a = b
@@ -135,8 +116,109 @@ public class Main_2 {
         // System.out.println("a >= b : " + (a >= b));   // false
         // System.out.println("a <= b : " + (a <= b));   // true
 
-         
+
+        //d.Logical Operators
+
+//        int a = 30;
+//        int b = 40;
+
+        // &&
+//        if(a<50 && b<50)  // Both condition needs to be correct.
+//            System.out.println("Both are less than 50");
+        // ||
+//        if (a<50 || b>50)  // At least one condition need to be correct.
+//            System.out.println("At least one less than 50");
+
+
+        // !
+//        boolean isAdult = false;
+//        if(!isAdult)  // !(NOT) reverse the condition, if condition !true == false or !false == true.
+//            System.out.println("is Adult");
+//        else
+//            System.out.println("not Adult");
+
+
+
+
+// How to take input?
+
+//        Scanner sc = new Scanner(System.in);
+//
+//        System.out.print("Enter your age: ");
+//        int age = sc.nextInt();
+//
+//        System.out.print("Enter your name: ");
+//        String name1 = sc.next(); // it does not take a sentence only take toke of word.
+//
+//        System.out.print("Enter your number: ");
+//        float num = sc.nextFloat();
+//
+//        sc.nextLine(); // *** FIX: Consume the leftover newline from sc.nextFloat() ***
+//        System.out.print("Tell us about yourself: ");
+//        String name2 = sc.nextLine(); // it does not take only a word. It takes whole sentence.
+//    
+
+//        System.out.println(age + "\n" + name1 + "\n" + num + "\n" + name2 );
+
+
+
         // Conditional statement
+
+// In Java specifically, the answer is 4 main types of if statements ✅
+// (Some books mention 5, but Java syntax officially has 4 forms.)
+
+// 🔹 Types of if Statements in Java
+// 1️⃣ Simple if
+
+// Executes code only when condition is true
+
+// if (x > 0) {
+//     System.out.println("Positive number");
+// }
+
+
+// 2️⃣ if–else
+
+// Chooses between two blocks
+
+// if (x > 0) {
+//     System.out.println("Positive");
+// } else {
+//     System.out.println("Negative or zero");
+// }
+
+
+// 3️⃣ if–else–if Ladder
+
+// Used for multiple conditions
+
+// if (marks >= 90) {
+//     System.out.println("A");
+// } else if (marks >= 75) {
+//     System.out.println("B");
+// } else if (marks >= 60) {
+//     System.out.println("C");
+// } else {
+//     System.out.println("Fail");
+// }
+
+
+// 4️⃣ Nested if–else
+
+// An if–else inside another if–else
+
+// if (age >= 18) {
+//     if (age < 60) {
+//         System.out.println("Working age");
+//     } else {
+//         System.out.println("Senior citizen");
+//     }
+// } else {
+//     System.out.println("Minor");
+// }
+
+/* Nested if is also available in java --> inside if there is anopthe if statement. */
+
 
         //if-else
 
@@ -171,37 +253,17 @@ public class Main_2 {
 //        }
 
         // Able to vote or not code
-//        Scanner sc = new Scanner(System.in);
-//        System.out.println("Enter your age: ");
-//        int age = sc.nextInt();
-//
-//        if(age>18)
-//            System.out.println("Vote");
-//
-//        else
-//            System.out.println("Can't Vote");
-//
-
-
-        //d.Logical Operators
-
-//        int a = 30;
-//        int b = 40;
-
-        // &&
-//        if(a<50 && b<50)  // Both condition needs to be correct.
-//            System.out.println("Both are less than 50");
-        // ||
-//        if (a<50 || b>50)  // At least one condition need to be correct.
-//            System.out.println("At least one less than 50");
-
-
-        // !
-//        boolean isAdult = false;
-//        if(!isAdult)  // !(NOT) reverse the condition, if condition !true == false or !false == true.
-//            System.out.println("is Adult");
-//        else
-//            System.out.println("not Adult");
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("Enter your age: ");
+//         int age = sc.nextInt();
+        
+//         if(age>=18){
+//             System.out.println("You are eligible for vote");
+//         } else if (age<18 && age>0) {
+//             System.out.println("You are not eligible for vote");
+//         } else {
+//             System.out.println("Invalid age");
+//         }
 
 
 //        Notebook price = 40 , Pen price = 10 take input from user about the price and suggest which they buy it
@@ -233,10 +295,22 @@ public class Main_2 {
 //        }
 
 
+
         // Switch-case
 //        Switch case statements are a substitute for long if statements that compare a
 //        variable to multiple values. After a match is found, it executes the
 //        corresponding code of that value case.
+
+       // Why it is use?
+//       1. “When multiple independent if statements are used, every condition is checked even if one condition matches early, 
+//        which increases execution time. The switch statement evaluates the expression once and directly jumps to the matching case, 
+//        making it more efficient and readable.”
+
+//       2. Using if-else-if ladder we can avoid this problem but the code is not suitable and readable,
+//          Switch-case is more maintaining , readable and suitable for multiple and mixed values.
+
+
+// Print a day in a week based on user input1 1-7:
 
 //        Scanner sc = new Scanner(System.in);
 //        System.out.print("Enter a number between 1-7: ");
