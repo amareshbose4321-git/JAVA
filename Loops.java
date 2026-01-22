@@ -4,28 +4,52 @@ public class Loops {
     public static void main(String[] args) {
         
         //LOOPS
+        // loops are used to repeat a block of code until a condition is met.
+        //Java mainly has 4 types of loops
 
-        //for loop
+        //1. for loop: Used when you know how many times the loop should run.
 
+        //Syntax
+
+//       for(initialization; condition; increment/decrement){
+//           // code
+//       }
+
+        //ex:        
         //Print number 1-5
 //        for(int i = 1 ; i<=5 ; i++){
 //            System.out.println(i);
 //        }
        
-
+        //ex:   
         //Print number 5-1
 //        for(int i = 5 ; i>=1 ; i--){
 //            System.out.println(i);
 //        }
 
-        //while loop
+      //2. while loop : Used when you don't know how many times the loop should run.
+
+      //Syntax
+      
+//      while(condition){
+//          // code
+//      }
+
+         //ex:
 //        int j = 5;
 //        while(j>=1){
 //            System.out.println(j);
 //            j--;
 //        }
 
-        //Do-while loop
+        //3. Do-while loop: Runs at least once, even if the condition is false.
+
+        //Syntax
+//        do{
+//          code
+//        } while(condition);
+
+        //ex:
 //        int k = 5;
 //        do{
 //            System.out.println(k);
