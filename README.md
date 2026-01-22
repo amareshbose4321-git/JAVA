@@ -17,7 +17,7 @@ The objective of this repository is to build strong Java fundamentals by focusin
 2. Main_1.java --> (Variables, Data types, String, Arrays, Casting, constant)
 3. Main_2.java --> (Operators, how to take input, Control statements (if, if-else, switch))
 3. Loops.java--> Looping statements (for, while, do-while)
-5. patterns.java --> (Star and number patterns)
+5. patterns.java --> (Star and number patterns problems)
 6. Function.java --> (Classes,Methods and basic Function definition and call)
 
 
