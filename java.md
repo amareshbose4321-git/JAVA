@@ -17,7 +17,36 @@ class Main {
 public static void main(String[] args) {
 🔹 main method – execution starts from here
 🔹 public → JVM can access this method because it has public access modifire
-🔹 static → No object needed to run this method
+🔹 static → No object needed to run this method. We can access the variable and method or anything using their class name. 
+
+ex,
+// “static means we can access static members using the class name.”
+// static → access with ClassName.memberName
+
+class Demo{
+    static int x = 10;
+    int y = 20;
+
+    static void name(){
+        System.out.println("Amaresh");
+    }
+}
+
+public class nh {
+    public static void main(String[] args) {
+        
+        System.out.println(Demo.x); // correct
+        Demo.name(); // correct
+        
+        // Incorrect (We need to create an object because it is not static, so we can't access using class name)
+        // System.out.println(Demo.y); 
+
+        Demo d = new Demo();
+        System.out.println(d.y);
+        
+    }
+}
+
 🔹 void → Returns nothing
 🔹 String[] args → Command-line arguments. String-->(data type in text format), []--> Array format , args--> It is a variable name, we can change it anytime.
 
