@@ -1,4 +1,5 @@
-
+public class Wrapper_Class {
+    public static void main(String[] args){
 // 📦 Wrapper Class in Java
 // 🔹 What is Wrapper Class?
 // A Wrapper Class is a class that converts a primitive data type into an object.
@@ -166,8 +167,7 @@
 // }
 
 //EX:-1
-public class Wrapper_Class {
-    public static void main(String[] args){
+
 
 Integer num1 = 50;
 Integer num2 = 40;
@@ -176,9 +176,13 @@ String str1 = num1.toString();
 String str2 = num2.toString();
 
 System.out.println(str1+str2);
-    }
-}
 
 // ✔ num → Integer object
 // ✔ toString() → converts it to String
+
+
+    }
+}
+
+
 
