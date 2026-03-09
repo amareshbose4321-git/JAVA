@@ -19,6 +19,7 @@ The objective of this repository is to build strong Java fundamentals by focusin
 3. Loops.java--> Looping statements (for, while, do-while)
 5. patterns.java --> (Star and number patterns problems)
 6. Function.java --> (Classes,Methods and basic Function definition and call)
+7. Wrapper_Class.java --> (Description,Boxing and Autoboxing, Unboxing and AutoUnboxing, methods: valueOf(),parse,toString())
 
 
 ----------------------------Well-commented example programs------------------------------
